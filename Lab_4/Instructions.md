@@ -77,7 +77,7 @@ Step 4: Create a Docker Compose file
 Create a new file named docker-compose.yml by typing the following command in terminal:
 
 nano docker-compose.yml
-Add the following content in docker-compose.yml:
+Add the following content in docker-compose.yml:  
 
 version: '3'  
 services:  
@@ -113,7 +113,7 @@ services:
 
 networks:
   mynetwork:
-   # name: mynetwork
+    name: mynetwork
     external: true
 
 This Docker Compose file defines two services, postgres and app. The postgres service uses the Dockerfile.postgres file to build the PostgreSQL image and maps port 5432 to the host. The app service uses the Dockerfile.node file to build the Node.js image and maps port 3000 to the host. The app service depends on the postgres service to start the database before starting the application. Both containers are in the same network mynetwork.
@@ -134,7 +134,7 @@ This will start the containers in the background.
 Step 6: Test the connection
 
 
-Test the connection between the two containers by visiting http://localhost:3000/users
+Test the connection between the two containers by visiting http://localhost:3001/users
 
 
 curl localhost:3001/users
@@ -145,3 +145,4 @@ Congratulations!
 
 
 In this hands-on exercise, you learned how to create and run multi-container applications using Docker Compose, and how to define services in a Docker Compose file, build Docker images from Dockerfiles, and connect containers to each other.
+
