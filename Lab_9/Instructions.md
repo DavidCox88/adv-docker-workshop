@@ -71,25 +71,25 @@ scrape_configs:
 <div>After the services have started, you should be able to access Prometheus at <code>http://localhost:9090</code> , Grafana at <code>http://localhost:3030</code> and cAdvisor at<code> http://localhost:8080</code></div>
 <p>&nbsp;</p>
 <div>You can use port forwarding on GCP</div>
-<p>![](https://raw.githubusercontent.com/DavidCox88/GoogleClout-Challenge/day2/Lab_9/images/gcp-port-forwarding.png)</p>
+<p>![](https://raw.githubusercontent.com/DavidCox88/adv-docker-workshop/day2/Lab_9/images/gcp-port-forwarding.png)</p>
 <div>&nbsp;</div>
 <h3>Step 2: Access cAdvisor</h3>
 <p>&nbsp;</p>
 <div>Click on Change port and enter cAdvisor port number: 8080</div>
 <p>&nbsp;</p>
 <div>Click on Docker Containers</div>
-<p>![](https://raw.githubusercontent.com/DavidCox88/GoogleClout-Challenge/day2/Images/cAdvisor1.png)</p>
+<p>![](https://raw.githubusercontent.com/DavidCox88/adv-docker-workshop/day2/Images/cAdvisor1.png)</p>
 <div>&nbsp;</div>
 <p>&nbsp;</p>
 <div>Choose some container just to see their status in cAdvisor:</div>
-<div>![](https://raw.githubusercontent.com/DavidCox88/GoogleClout-Challenge/day2/Images/cAdvisor2.png)</div>
+<div>![](https://raw.githubusercontent.com/DavidCox88/adv-docker-workshop/day2/Images/cAdvisor2.png)</div>
 <p>&nbsp;</p>
 <div>
 <h3>Step 3: Access Prometheus</h3>
 <p>&nbsp;</p>
 <div>Click on Change port and enter Prometheus port number: 9090</div>
 <p>Once in, choose and explore some of the metrics.</p>
-<div>![](https://raw.githubusercontent.com/DavidCox88/GoogleClout-Challenge/day2/Lab_9/images/prometheus.png)</div>
+<div>![](https://raw.githubusercontent.com/DavidCox88/adv-docker-workshop/day2/Lab_9/images/prometheus.png)</div>
 <p>&nbsp;</p>
 <div>&nbsp;</div>
 <p>&nbsp;</p>
@@ -101,5 +101,5 @@ scrape_configs:
 <p>&nbsp;</p>
 <div>Log in using credentials<br>username: admin</div>
 <div>password: admin</div>
-<p>![](https://raw.githubusercontent.com/DavidCox88/GoogleClout-Challenge/day2/Lab_9/images/grafana.png)</p>
+<p>![](https://raw.githubusercontent.com/DavidCox88/adv-docker-workshop/day2/Lab_9/images/grafana.png)</p>
 <p><br><br></p>
