@@ -25,9 +25,12 @@
 <h3>Step 2: Run Docker Bench</h3>
 <div>Once you have installed Docker Bench, you can run it by executing the following command:</div>
 <div>&nbsp;</div>
+<div>
+<pre class="language-markup"><code>sudo docker run -it --net host --pid host --userns host --cap-add audit_control  -e DOCKER_CONTENT_TRUST=$DOCKER_CONTENT_TRUST -v /var/lib:/var/lib -v /var/run/docker.sock:/var/run/docker.sock --label docker_bench_security docker-bench-security  </code></pre>
+</div>
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div>This command will run Docker Bench and audit the security of your Docker containers.</div>
+<div>This command will run Docker Bench and audit the security of your Docker containers.&nbsp; &nbsp;</div>
 <p>&nbsp;</p>
 <h3>Step 3: Review the results</h3>
 <p>&nbsp;</p>
