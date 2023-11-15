@@ -175,9 +175,14 @@ console.log('App listening on port 8080')
 <pre class="language-markup"><code>curl http://localhost:8085</code></pre>
 </div>
 <p>&nbsp;</p>
-<div>Verify that the container is running with rootless access by running the following command inside the container:</div>
+<div>Verify that the container is running with rootless access by running the following command inside the container:&nbsp; &nbsp;</div>
 <p>&nbsp;</p>
-<div>&nbsp;</div>
+<div>
+<pre class="language-markup"><code>docker exec -it myapp5 sh
+
+id  
+</code></pre>
+</div>
 <p>&nbsp;</p>
 <div>This command will display the user and group IDs of the current user, which should be non-root.</div>
 <p>&nbsp;</p>
